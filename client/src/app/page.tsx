@@ -17,7 +17,7 @@ const Homepage = async ({searchParams}:{searchParams: Promise<{category:string}>
           priority
         />
       </div>
-      <ProductList category={category}/>
+      <ProductList category={category}  params="homepage"/>
     </div>
   );
 };
